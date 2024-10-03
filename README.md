@@ -151,7 +151,7 @@ Para adicionar arquivos à lista para commit:
 - Para adicionar algum arquivo específico:
     + ```git add nome-do-arquivo.xx```
 
-> Caso já tenha adicionado um arquivo mas depois (antes de dar commit) tenha o modificado, o adicione novamente para que as mudanças sejam atualizadas.
+> Caso já tenha adicionado um arquivo mas depois (antes de dar commit) tenha o modificado, o adicione Fnovamente para que as mudanças sejam atualizadas.
 
 É possível, também, desfazer a adição de algum arquivo, para isso, use o código:
 
@@ -206,11 +206,11 @@ Para que este seja mostradas as diferenças entre os commits adicione o ```-p```
 
 Essa é a última parte da atualização, ele enviará para o repositório (gitlab, github..) as alterações feitas.
 
-- ```git push origin master```
+- ```git push origin main```
 
-> O *master* significa que o projeto é master. Ele pode estar como *Alpha* ou outro nome. Caso não tenha certeza, é possível dar pull com apenas o comando ```git pull origin```
+> O *master* significa que o projeto é master. Porém o github não utiliza mais essa Branch. Ele pode estar como *Alpha* ou outro nome. Caso não tenha certeza, é possível dar pull com apenas o comando ```git pull origin```
 
-
+- Pull feito com s brach:```git pull origin main```
 
 ------------------
 
